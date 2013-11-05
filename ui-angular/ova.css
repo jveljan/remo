@@ -1,0 +1,114 @@
+
+.debug {
+	box-shadow: 0 0 3px 3px #F00;
+}
+
+.shadowed-primary {
+	box-shadow: 0 0 3px 1px gray;
+}
+.b-ct:hover {
+	box-shadow: 0 0 6px 3px gray;
+}
+.b-ct-true {
+	box-shadow: 0 0 3px 1px green;
+}
+.b-ct {
+	cursor: pointer;
+}
+.b-ct-true .b-title {
+	background-color: green;
+}
+ 
+.b-ct:hover  .b-title {
+	background-color: #357ebd;
+} 
+
+.b-ct-true:hover  .b-title {
+	background-color: green;
+} 
+
+
+
+.b-title {
+	background-color: gray;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.b-icon {
+	font-size: 80px;
+	text-align: center;
+}
+.b-description {
+	height: 50px;
+	text-align: center;
+	overflow: hidden;
+	font-size: 12px;
+}
+.b-buttons {
+	padding: 5px;
+}
+.rounded-5 {
+	border-radius: 5px;
+}
+
+.m5 {
+	margin: 5px;
+}
+.m10 {
+	margin: 10px;
+}
+.m15 {
+	margin: 15px;
+}
+
+.fl {
+	float: left;
+}
+.m15 {
+	margin: 15px;
+}
+
+.em-1 {
+	float: left;
+}
+.em-2 {
+	float: left;
+}
+
+.em-1 {
+	width: 100%;
+}
+.em-2 {
+	width: 50%;
+}
+	
+@media (min-width: 768px) {
+	.em-1 {
+		width: 50%;
+	}
+	.em-2 {
+		width: 33.33%;
+	}
+}
+
+@media (min-width: 992px) {
+	.em-1 {
+		width: 33.33%;
+	}
+	.em-2 {
+		width: 25%;
+	}
+}
+@media (min-width: 1200px) {
+	.em-1 {
+		width: 25%;
+	}
+	.em-2 {
+		width: 20%;
+	}
+}
